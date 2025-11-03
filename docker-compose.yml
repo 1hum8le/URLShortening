@@ -1,0 +1,15 @@
+services:
+db:
+  image: postgres:18
+  restart: always
+  environment:
+    POSTGRES_PASSWORD: AH8MPT882QCYUOuINhlkO
+    POSTGRES_USER: postgres
+    POSTGRES_DB: postgres 
+    ports:
+    - 5432:5432
+  volumes:
+  - db_data:/var/liv/postgresql/data
+
+volumes:
+  db_data:
