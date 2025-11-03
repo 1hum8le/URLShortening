@@ -1,0 +1,33 @@
+{
+  "name": "urlshortening",
+  "version": "1.0.0",
+  "description": "The URL shortening API allows you to shorten links. It provides a simple and efficient way to create short URLs that redirect to longer, more complex web addresses. This service is ideal for sharing links on social media, in emails, or any platform where space is limited.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1hum8le/URLShortening.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1hum8le/URLShortening/issues"
+  },
+  "homepage": "https://github.com/1hum8le/URLShortening#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/node": "^24.10.0"
+  }
+}
