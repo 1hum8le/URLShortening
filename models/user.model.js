@@ -1,5 +1,4 @@
 import { pgTable, uuid, varchar, text, timestamp } from "drizzle-orm/pg-core";
-import { scheduler } from "timers/promises";
 
 export const users = pgTable("users", {
     id: uuid().primaryKey().defaultRandom(),

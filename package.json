@@ -7,7 +7,9 @@
 	"scripts": {
 		"db:push": "drizzle-kit push",
 		"db:studio": "drizzle-kit studio",
-		"dev": "node --watch index.js"
+		"dev": "node --watch index.js",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "drizzle-kit migrate"
 	},
 	"repository": {
 		"type": "git",
@@ -20,10 +22,13 @@
 	},
 	"homepage": "https://github.com/1hum8le/URLShortening#readme",
 	"dependencies": {
+		"@esbuild-kit/core-utils": "^3.3.2",
+		"@esbuild-kit/esm-loader": "^2.6.5",
 		"bcrypt": "^6.0.0",
 		"cors": "2.8.5",
 		"dotenv": "^17.2.3",
 		"drizzle-orm": "0.40.0",
+		"esbuild": "^0.26.0",
 		"express": "^4.21.2",
 		"jsonwebtoken": "^9.0.2",
 		"pg": "^8.16.3"
