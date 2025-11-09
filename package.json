@@ -1,33 +1,38 @@
 {
-  "name": "urlshortening",
-  "version": "1.0.0",
-  "description": "The URL shortening API allows you to shorten links. It provides a simple and efficient way to create short URLs that redirect to longer, more complex web addresses. This service is ideal for sharing links on social media, in emails, or any platform where space is limited.",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "node --watch index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/1hum8le/URLShortening.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/1hum8le/URLShortening/issues"
-  },
-  "homepage": "https://github.com/1hum8le/URLShortening#readme",
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "drizzle-orm": "^0.44.7",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "pg": "^8.16.3"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.25",
-    "@types/node": "^24.10.0"
-  }
+	"name": "urlshortening",
+	"version": "1.0.0",
+	"description": "The URL shortening API allows you to shorten links. \r FrontEnd and Backend will be used together with PostgreSQL.\r This document also list all the tools, technologies, and libraries used in the URL Shortener Project.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"db:push": "drizzle-kit push",
+		"db:studio": "drizzle-kit studio",
+		"dev": "node --watch index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/1hum8le/URLShortening.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/1hum8le/URLShortening/issues"
+	},
+	"homepage": "https://github.com/1hum8le/URLShortening#readme",
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"cors": "2.8.5",
+		"dotenv": "^17.2.3",
+		"drizzle-orm": "0.40.0",
+		"express": "^4.21.2",
+		"jsonwebtoken": "^9.0.2",
+		"pg": "^8.16.3"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.25",
+		"@types/node": "^24.10.0",
+		"@types/pg": "^8.15.6",
+		"drizzle-kit": "0.31.6",
+		"tsx": "^4.20.6"
+	}
 }

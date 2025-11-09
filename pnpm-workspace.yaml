@@ -1,0 +1,6 @@
+ignoredBuiltDependencies:
+  - bcrypt
+  - esmodule
+
+onlyBuiltDependencies:
+  - esbuild
