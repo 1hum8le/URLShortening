@@ -1,9 +1,6 @@
 {
     "version":"7",
     "dialect":"postgresql",
-    "entries":[],
-    "scripts": {
-    "db:generate": "drizzle-kit generate",
-        "db:migrate": "drizzle-kit migrate"
-    }
+    "entries":[]
+    
 }
